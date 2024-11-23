@@ -1,0 +1,91 @@
+/* Outer container for the entire preview */
+.preview-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 100%;
+    background-color: #f5f5f5; /* Background for the whole preview */
+    border-radius: 10px;
+  }
+  
+  /* Chat Window */
+  .chat-window {
+    width: 300px;
+    height: 500px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: sans-serif; /* Default font */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: 0px 30px 0px 30px;
+  }
+  
+  /* Header */
+  .chat-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .chat-header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .chat-bot-name {
+    font-weight: bold;
+  }
+  
+  .chat-close {
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Chat Body */
+  .chat-body {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    height: calc(100% - 100px); /* Adjust height to fit within the window */
+    overflow-y: auto;
+  }
+  
+  /* Help Strip */
+  .help-strip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    background-color: #ffffff;
+  }
+  
+  .help-microphone {
+    cursor: pointer;
+  }
+  .green-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #065006; /* Bright green color */
+    border-radius: 50%; /* Makes it a circle */
+    display: inline-block;
+    margin-right: 8px; /* Space between the dot and the text */
+    vertical-align: middle; /* Align the dot with the text */
+  }
+  .launcher-avatar{
+    width: 40px;
+    height: 40px;
+  }
